@@ -1,0 +1,93 @@
+@media screen and (min-width: 500px) {
+  .formcontainer{
+    width: 80%;
+  }
+}
+.formcontainer {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgb(247, 243, 243);
+  -webkit-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+
+  box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  width: 60%;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+.title {
+  margin: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(22, 22, 22);
+  font-size: larger;
+}
+.form {
+  width: 100%;
+}
+.inputContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inputTitle {
+  font-family: sans-serif;
+  color: black;
+  margin-bottom: 5px;
+  font-size: larger;
+}
+.input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: 0.1px solid rgb(161, 161, 161);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.input:focus {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: 0.1px solid rgb(71, 175, 245);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: 0.1px solid rgb(161, 161, 161);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  height: 200px;
+}
+.textarea:focus {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: 0.1px solid rgb(71, 175, 245);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  height: 200px;
+}
+.btncontainer {
+  float: right;
+}
+.button {
+  padding: 7px 13px;
+  background-color: rgb(88, 4, 4);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  -webkit-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+
+  box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  outline: none;
+  border-radius: 2px;
+  border: none;
+  text-align: left;
+}

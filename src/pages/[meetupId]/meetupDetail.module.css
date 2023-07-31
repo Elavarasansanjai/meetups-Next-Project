@@ -1,0 +1,32 @@
+.meetupDetailContainer {
+  width: 50%;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(247, 243, 243);
+  -webkit-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+}
+.meetupDetailContainer img {
+  width: 100%;
+}
+.meetupDetailContainer h2 {
+  color: rgb(37, 36, 36);
+  font-family: sans-serif;
+}
+.meetupDetailContainer p {
+  color: rgb(56, 54, 54);
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.meetupDetailContainer button {
+  padding: 8px 14px;
+  background-color: rgb(124, 20, 20);
+  color: aliceblue;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+}

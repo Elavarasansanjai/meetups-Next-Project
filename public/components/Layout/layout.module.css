@@ -1,0 +1,27 @@
+.layoutContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  background-color: rgb(163, 27, 27);
+}
+.logo {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+.linkConatiner {
+  display: flex;
+  align-items: center;
+}
+.link {
+  list-style-type: none;
+}
+.page {
+  text-decoration: none;
+  color: rgb(196, 193, 193);
+  margin-right: 20px;
+  font-family: sans-serif;
+}

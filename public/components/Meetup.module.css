@@ -1,0 +1,61 @@
+.meetupcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+}
+.img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+@media screen and (min-width: 500px) {
+  .meetuplist {
+    width: 80%;
+  }
+}
+.meetuplist {
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 20px;
+  width: 40%;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+}
+.p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.button {
+  padding: 6px 14px;
+  color: rgb(184, 40, 40);
+  border: 0.2px solid rgb(184, 40, 40);
+  border-radius: 2px;
+  font-size: 16px;
+  -webkit-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.button:hover {
+  padding: 6px 14px;
+  color: rgb(184, 40, 40);
+  border: 0.2px solid rgb(184, 40, 40);
+  border-radius: 2px;
+  font-size: 16px;
+  -webkit-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 9px 19px -7px rgba(0, 0, 0, 0.75);
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  background-color: rgb(245, 145, 145);
+}
